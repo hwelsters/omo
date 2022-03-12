@@ -1,0 +1,104 @@
+.settings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-family: "Space Mono", monospace;
+  font-size: 1.5vw;
+
+  height: 50vw;
+}
+
+.settings__wrapper {
+  width: 40%;
+  height: 100%;
+
+  margin-top: 5%;
+}
+
+.settings__update-title {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 2vw;
+}
+
+.settings__subtitle {
+  font-size: 1.25vw;
+}
+
+.settings__profile-picture {
+  display: flex;
+
+  align-items: center;
+  float: left;
+
+  border-radius: 50%;
+}
+
+.settings__profile-picture > img {
+  width: 25%;
+  height: 25%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.settings__profile-picture-icon {
+  font-size: 1.5vw;
+  margin-left: 1vw;
+  cursor: pointer;
+}
+
+.settings__form {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 1.1vw;
+  font-size: 0.8vw;
+}
+
+.settings__form > input {
+  border-radius: 5px;
+  border-color: black;
+  height: 5%;
+
+  font-family: "Space Mono", monospace;
+  font-size: 0.8vw;
+
+  padding: 2%;
+  padding-left: 1%;
+
+  margin-bottom: 5%;
+}
+
+.settings__form > input:focus {
+  outline: none;
+}
+
+.settings__submit {
+  font-family: "Space Mono", monospace;
+  font-weight: 600;
+  font-size: 0.8vw;
+
+  padding: 1vw;
+
+  border-color: black;
+  border-radius: 0.3vw;
+
+  background-color: white;
+  box-shadow: 0 0.5vw black;
+
+  cursor: pointer;
+
+  transition: all 250ms;
+
+  margin-bottom: 15%;
+}
+
+.settings__submit:hover {
+  box-shadow: 0 0.25vw black;
+}
+
+.settings__submit:focus {
+  box-shadow: 0 0 black;
+  background-color: #e6e6e6;
+}

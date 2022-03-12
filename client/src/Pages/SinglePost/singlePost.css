@@ -1,0 +1,139 @@
+.single-post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-family: "Space Mono", monospace;
+  font-size: 1.1vw;
+  font-weight: 600;
+
+  color: #2f3150;
+}
+
+.single-post > p,
+img,
+h1,
+h2,
+input {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 60%;
+  font-weight: 300;
+}
+
+.single-post > h2 {
+  margin-top: -2.5%;
+  margin-bottom: 2.5%;
+  font-size: 1.4vw;
+
+  color: #9798a8;
+}
+
+.single-post__description {
+  line-height: 2.5vw;
+  font-size: 1.2vw;
+}
+
+.single-post__description--edit {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.single-post__description--edit > input {
+  line-height: 2.5vw;
+  font-size: 1.2vw;
+  border: none;
+  font-family: "Space Mono", monospace;
+  font-size: 1.1vw;
+}
+
+.single-post__description--edit > input:focus {
+  outline: none;
+}
+
+.single-post > p:first-letter,
+.single-post__description--edit > input:first-letter {
+  margin-left: 5vw;
+}
+
+.single-post > input {
+  font-size: 2.2vw;
+  font-family: "Space Mono", monospace;
+  color: #2f3150;
+  border: none;
+}
+
+.single-post > input:focus {
+  outline: none;
+}
+
+.single-post__img {
+  aspect-ratio: 2/1;
+
+  object-fit: cover;
+
+  border-width: 2%;
+  border-style: solid;
+  border-radius: 0.3vw;
+}
+
+.single-post__title {
+  margin-top: 2.5%;
+  font-weight: 700;
+}
+
+
+.single-post__edit {
+  margin-top: 1%;
+  width: 60%;
+  font-size: 1.5vw;
+}
+
+.single-post__info {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}
+
+.single-post__icon {
+  margin-right: 5%;
+
+  cursor: pointer;
+
+  transition: all 250ms;
+}
+
+.single-post__icon:hover {
+  color: #7ed577;
+}
+
+
+.single-post__submit {
+  font-family: "Space Mono", monospace;
+  font-weight: 600;
+  font-size: 0.8vw;
+
+  padding: 1vw;
+
+  border-color: black;
+  border-radius: 0.3vw;
+
+  background-color: white;
+  box-shadow: 0 0.5vw black;
+
+  cursor: pointer;
+
+  transition: all 250ms;
+
+  margin-bottom: 15%;
+}
+
+.single-post__submit:hover {
+  box-shadow: 0 0.25vw black;
+}
+
+.single-post__submit:focus {
+  box-shadow: 0 0 black;
+  background-color: #e6e6e6;
+}

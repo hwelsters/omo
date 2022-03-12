@@ -1,0 +1,139 @@
+.write-post {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+  width: 100%;
+  height: 100%;
+
+  border-width: 2%;
+}
+
+.write-post > input[type="text"] {
+  font-family: "Space Mono", monospace;
+  font-weight: 600;
+  line-height: 2.5vw;
+}
+
+.write-post > button {
+  font-family: "Space Mono", monospace;
+  font-weight: 600;
+  padding: 1vw;
+
+  background-color: white;
+  box-shadow: 0 0.5vw black;
+
+  cursor: pointer;
+
+  transition: all 250ms;
+}
+
+.write-post > button:hover {
+  box-shadow: 0 0.25vw black;
+}
+
+.write-post > button:focus {
+  box-shadow: 0 0 black;
+  background-color: #e6e6e6;
+}
+
+.write-post > label {
+  font-family: "Space Mono", monospace;
+}
+
+.write-post__img {
+  margin-top: 0;
+  aspect-ratio: 2/1;
+
+  object-fit: cover;
+
+  border-width: 2%;
+  border-style: solid;
+  border-radius: 0.3vw;
+}
+
+.write-post__form {
+  width: 60%;
+  min-height: 40vw;
+  justify-content: center;
+  border-style: solid;
+  border-radius: 0.3vw;
+}
+
+.write-post__form__group {
+  display: flex;
+
+  margin-top: 2.5%;
+
+  width: 100%;
+}
+
+.write-post__icon {
+  font-size: 2vw;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0.5vw;
+
+  margin: 1vw;
+
+  color: #2f3150;
+
+  cursor: pointer;
+}
+
+.write-post__input {
+  font-family: "Space Mono", monospace;
+  flex: 1;
+  font-size: 1.6vw;
+  border: none;
+}
+
+.write-post__input:focus {
+  outline: none;
+}
+
+.write-post__text {
+  height: 30vw;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 1.2vw;
+  flex: 1;
+}
+
+.write-post__submit {
+  font-family: "Space Mono", monospace;
+  font-weight: 600;
+  font-size: 0.8vw;
+
+  width: 20%;
+
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-bottom: 5%;
+
+  padding: 1vw;
+
+  border-color: black;
+  border-radius: 0.3vw;
+
+  background-color: white;
+  box-shadow: 0 0.5vw black;
+
+  cursor: pointer;
+
+  transition: all 250ms;
+}
+
+.write-post__submit:hover {
+  box-shadow: 0 0.25vw black;
+}
+
+.write-post__submit:focus {
+  box-shadow: 0 0 black;
+  background-color: #e6e6e6;
+}

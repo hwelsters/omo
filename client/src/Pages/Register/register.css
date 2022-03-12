@@ -1,0 +1,116 @@
+.register {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  height: calc(100vh - 100px);
+  width: 100%;
+
+  font-family: "Space Mono", monospace;
+
+  color: #4d4d83;
+}
+
+.register__block {
+  display: flex;
+  flex-direction: column;
+
+  border-color: black;
+  border-style: solid;
+  border-radius: 0.3vw;
+
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  aspect-ratio: 5/6;
+}
+
+.register__block > button {
+  font-family: "Space Mono", monospace;
+  font-size: 0.8vw;
+
+  color: #4d4d83;
+
+  border: none;
+  
+  background-color: white;
+
+  cursor: pointer;
+}
+
+.register__title {
+  font-size: 2vw;
+  font-weight: 600;
+}
+
+.register__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+}
+
+.register__form > label {
+  font-size: 0.8vw;
+  font-weight: 600;
+  margin-top: 2%;
+}
+
+.register__form > input {
+  width: 80%;
+  border-radius: 0.3vw;
+  border-color: black;
+  height: 5%;
+
+  font-family: "Space Mono", monospace;
+  font-size: 0.8vw;
+
+  padding: 2%;
+  padding-left: 1%;
+
+  margin-bottom: 5%;
+}
+
+.register__form > input:focus {
+  outline: none;
+}
+
+.register__button {
+  margin-top: 5%;
+}
+
+.register__form > button {
+  font-family: "Space Mono", monospace;
+  font-weight: 600;
+  font-size: 0.8vw;
+
+  padding: 2%;
+
+  border-color: black;
+  border-radius: 0.3vw;
+  
+  background-color: white;
+  box-shadow: 0 0.5vw black;
+
+  width: 40%;
+
+  cursor: pointer;
+
+  transition: all 250ms;
+}
+
+.register__form > button:hover {
+  box-shadow: 0 0.25vw black;
+}
+
+.register__form > button:focus {
+  box-shadow: 0 0 black;
+  background-color: #e6e6e6;
+}
+
+.register__error-label {
+  color: #e16271;
+}
